@@ -21,11 +21,10 @@ h1 {
 footer {
   text-align: right;
   color: midnightblue;
-  margin: 0px;
 }
 
 footer, p {
-  
+  margin: 0px;
 }
 
 /*Mobile Devices: 319px-480px
@@ -47,12 +46,12 @@ iPads and Tablets: 481px — 1200px
     font-size: .75rem;
   }
   .tile-image {
-    float: left;
     height: 100px;
     padding-right: 10px;
   }
   .right .tile-image {
     height: 130px;
+    margin-top: 20px;
 }
 }
 @media (min-width:481px) and (max-width:1200px) {
